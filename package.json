@@ -1,0 +1,23 @@
+{
+    "name": "mcia",
+    "version": "1.0.0",
+    "description": "Makes every line in a css file !important ",
+    "main": "server.js",
+    "scripts": {
+        "test": "node server.js",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sakshaat/MCIA.git"
+    },
+    "author": "sakshaat",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/sakshaat/MCIA/issues"
+    },
+    "homepage": "https://github.com/sakshaat/MCIA#readme",
+    "dependencies": {
+        "express": "^4.16.2"
+    }
+}
