@@ -3,6 +3,9 @@
     "version": "1.0.0",
     "description": "Makes every line in a css file !important ",
     "main": "server.js",
+    "engines": {
+        "node": "8.9.0"
+    },
     "scripts": {
         "test": "node server.js",
         "start": "node server.js"
