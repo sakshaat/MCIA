@@ -2,7 +2,9 @@ var gulp = require('gulp');
 var concat = require('gulp-concat');
 var cssnano = require('gulp-cssnano');
 
+// Only need this for debug
 var browserSync = require('browser-sync').create();
+
 
 // Server for browser sync
 gulp.task('browser-sync', function() {

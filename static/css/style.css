@@ -1,4 +1,60 @@
 textarea {
-    height: 100%;
-    width: 40%;
+    height: 70vh;
+    width: 100%;
+    resize: none;
+}
+
+body {
+    background-color: #ebf4fa;
+}
+
+header {
+    background-color: #4484CE;
+    box-shadow: 0px 1px 3px black;
+}
+
+header h1 {
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px black;
+}
+
+header h5 {
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px black;
+}
+
+#github-btn {
+    color: whitesmoke;
+}
+
+#github-btn:hover {
+    color: #F7882F;
+}
+
+.navbar-section kbd {
+    box-shadow: 0px 1px 3px black;
+}
+
+footer span {
+    color: whitesmoke;
+    font-size: 0.9em;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: whitesmoke;
+}
+
+footer a:hover {
+    color: #F7882F;
+    text-decoration: none;
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #4484CE;
 }

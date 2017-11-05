@@ -1,17 +1,51 @@
-<html>
+<!DOCTYPE html>
 
 <head>
-    <title>CSS Importantizer</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MC!A</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
-    <h1>Make CSS !important again</h1>
-    <textarea name="input" id="input_css" cols="80" rows="100" oninput="importantize()">
+    <header class="p-2">
+        <div class="navbar ml-2 mr-2">
+            <section class="navbar-section">
+                <a href="#" class="navbar-brand mr-2">
+                    <h1 class="mb-1">MC!A</h1>
+                    <h5 class="text-italic">Make CSS !important again</h5>
+                </a>
+            </section>
+            <section class="navbar-section">
+                <kbd><a href="https://github.com/sakshaat/mcia" id="github-btn" class="btn btn-link">GitHub</a></kbd>
+            </section>
+        </div>
+    </header>
+
+    <div class="container pt-2 mt-2 col-10">
+        <div class="columns">
+            <section class="column col-6">
+                <h5>CSS</h5>
+                <textarea name="input" id="input_css" rows="100" oninput="importantize()">
 .test {
     background-color: blue;
 }</textarea>
-    <textarea name="output" readonly id="output_css" cols="80" rows="100"></textarea>
+            </section>
+            <section class="column col-6">
+                <h5>!important CSS</h5>
+                <textarea class="" name="output" readonly id="output_css" rows="100"></textarea>
+            </section>
+        </div>
+    </div>
+
+    <footer class="p-2 col-12">
+        <div>
+            <span>Created by <a href="https://github.com/sakshaat">@sakshaat</a></span>
+        </div>
+    </footer>
+
     <script src="js/script.js"></script>
 </body>
 
