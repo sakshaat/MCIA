@@ -3,7 +3,11 @@ var concat = require('gulp-concat');
 var cssnano = require('gulp-cssnano');
 
 // Only need this for debug
-var browserSync = require('browser-sync').create();
+try {
+    var browserSync = require('browser-sync').create();
+} catch (error) {
+    console.log("Please install Dev Dependencies if you want to use 'build watch'");
+}
 
 
 // Server for browser sync
