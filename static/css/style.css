@@ -4,6 +4,10 @@ textarea {
     resize: none;
 }
 
+.main-content {
+    margin-bottom: 50px;
+}
+
 body {
     background-color: #ebf4fa;
 }
@@ -51,10 +55,19 @@ footer a:hover {
 }
 
 footer {
-    position: absolute;
+    position: fixed;
     right: 0;
     bottom: 0;
     left: 0;
     padding: 1rem;
     background-color: #4484CE;
+}
+
+@media only screen and (max-width: 420px) {
+    textarea {
+        height: 30vh;
+    }
+    #output-section {
+        margin-top: 15px;
+    }
 }
